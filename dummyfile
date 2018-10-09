@@ -1,0 +1,7 @@
+node{
+stage('test stge'){
+steps{
+echo 'This is a test build other than jenkins file'
+}
+}
+}
