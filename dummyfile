@@ -1,7 +1,10 @@
-node{
-stage('test stge'){
-steps{
-  echo 'This is a test build other than jenkins in a *********dummyfile******'
-}
-}
+pipeline {
+    agent any
+    stages{
+        stage ('Test Pipeline'){
+            steps {
+                echo 'This is a test Jenkins pipeline project'
+            }
+        }
+    }
 }
